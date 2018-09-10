@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: url("../Images/weather.png")
+}
+#title {
+    background: lightgoldenrodyellow;
+    border: 3px dashed grey;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#directions {
+    background: url("../Images/cloth_alike.png");
+    border: 2px solid grey;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color:lightcoral;
+    font-weight: bold;
+}
+#number {
+    background: lightcoral;
+    border: 2px solid grey;
+    color: black;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    float: left;
+    
+    height: 50px;
+}
+#WinLoss {
+    background: lightskyblue;
+    color: black;
+    border: 2px solid grey;;
+    width: 25%;
+    text-align: center;
+    margin:  auto;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    float: left;
+    height: 50px;
+}
+#wrapper {
+    width: 600px;
+    margin: 0 auto;
+}
+#wrapper2 {
+    clear: both;
+    width: 600px;
+    margin: 0 auto;
+}
+img {
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin: 5px;
+    border: 2px solid grey;
+}
+#score {
+    clear: both;
+    background: lightsalmon;
+    color: black;
+    border: 2px solid grey;;
+    width: 300px;
+    text-align: center;
+    margin:  auto;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+    height: 40px;
+}
+#userGuess {
+    background: lightgreen;
+    color: black;
+    border: 2px solid grey;;
+    width: 300px;
+    text-align: center;
+    margin:  auto;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+    height: 100px;
+}
