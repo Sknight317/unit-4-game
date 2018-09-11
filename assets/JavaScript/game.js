@@ -1,7 +1,7 @@
 //This is where we establish the target number
 
  
-randomTarget = Math.floor(Math.random() * 40 + 10);
+randomTarget = Math.floor(Math.random() * 40 + 19);
     
 //This is where we set the number to guess header to match the target number.
 //This also allows us to change the html and put the target numebr inside of the html.
@@ -20,13 +20,16 @@ $("#number-to-guess").text(randomTarget);
 // Created an array of numbers.
  var crystalNum = [];
 
-for (var i = 0; i < 4; i++) {
-    numRandom = Math.floor(Math.random() * 4 + 1);
-    crystalNum.push(numRandom);
-}
 
+
+    for (var i = 0; i < 4; i++) {
+    numRandom = Math.floor(Math.random() * 8 + 1);
+    crystalNum.push(numRandom);
+    }
 // Checks if it's working
 console.log(crystalNum)
+
+
 
 
 // Made an on-click event that responds to button clicks of blue crystal image.
@@ -124,8 +127,18 @@ else if (counter >= randomTarget) {
 }
 });
 
-
-
-function resetGame() {}
+function resetGame() {
+    randomTarget = Math.floor(Math.random() * 40 + 10);
+    $("#number-to-guess").text(randomTarget);
+    crystalNum = [];
+    counter = 0;
+    $("#totalScore").text(counter);
+    for (var i = 0; i < 4; i++) {
+        numRandom = Math.floor(Math.random() * 6 + 1);
+        crystalNum.push(numRandom);
+        }
+    // Checks if it's working
+    console.log(crystalNum)
+}
 
   

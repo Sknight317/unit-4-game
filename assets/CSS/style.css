@@ -5,12 +5,12 @@ body {
     background: url("../Images/weather.png")
 }
 #title {
-    background: lightgoldenrodyellow;
+    background:white;
     border: 3px dashed grey;
-    width: 30%;
+    width: 400px;
     text-align: center;
     margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Chango', cursive;;
     font-weight: bold;
 }
 #directions {
@@ -19,18 +19,18 @@ body {
     width: 600px;
     text-align: center;
     margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
-    color:lightcoral;
+    font-family: 'Merienda', cursive;
+    color: lightcoral;
     font-weight: bold;
 }
 #number {
     background: lightcoral;
     border: 2px solid grey;
     color: black;
-    width: 50%;
+    width: 48%;
     text-align: center;
-    margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 4px auto;
+    font-family: 'Merienda', cursive;
     font-weight: bold;
     float: left;
     height: 80px;
@@ -39,30 +39,44 @@ body {
 #WinLoss {
     background: lightskyblue;
     color: black;
-    border: 2px solid grey;;
-    width: 25%;
+    border: 2px solid grey;
+    width: 48%;
     text-align: center;
-    margin:  auto;
-    margin-left: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px auto;
+    font-family: 'Merienda', cursive;
     font-weight: bold;
-    float: left;
+    float: right;
     height: 80px;
 }
 #wrapper {
     width: 600px;
-    margin: 0 auto;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    background: url("../Images/cloth_alike.png");
+    border: 2px solid grey;
+
 }
 #wrapper2 {
     clear: both;
+    text-align: center;
     width: 600px;
-    margin: 0 auto;
+    margin: auto;
+    
+    background: url("../Images/cloth_alike.png");
+    border: 2px solid grey;
+}
+#wrapper3 {
+    width: 500px;
+    margin: auto;
+    background: url("../Images/cloth_alike.png");
+    border: 2px solid grey;
 }
 img {
     width: 20%;
     height: 20%;
-    float: left;
     margin: 5px;
+    
     border: 2px solid grey;
 }
 #score {
@@ -72,9 +86,9 @@ img {
     border: 2px solid grey;;
     width: 300px;
     text-align: center;
-    margin:  auto;
+    margin: 5px auto;
     
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Merienda', cursive;
     font-weight: bold;
     
     height: 40px;
@@ -85,10 +99,9 @@ img {
     border: 2px solid grey;;
     width: 300px;
     text-align: center;
-    margin:  auto;
-    
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px auto;
+    font-family: 'Merienda', cursive;
     font-weight: bold;
-    
+    font-size: 35px;
     height: 100px;
 }
