@@ -9,7 +9,7 @@ body {
     border: 3px dashed grey;
     width: 400px;
     text-align: center;
-    margin: 0 auto;
+    margin: 30px auto;
     font-family: 'Chango', cursive;;
     font-weight: bold;
 }
@@ -19,18 +19,18 @@ body {
     width: 600px;
     text-align: center;
     margin: 0 auto;
-    font-family: 'Merienda', cursive;
-    color: lightcoral;
+    font-family: 'Prosto One', cursive;
+    color:rgb(206, 80, 80);
     font-weight: bold;
 }
 #number {
-    background: lightcoral;
+    background: rgb(206, 80, 80);
     border: 2px solid grey;
     color: black;
     width: 48%;
     text-align: center;
-    margin: 4px auto;
-    font-family: 'Merienda', cursive;
+    margin: 15px auto;
+    font-family: 'Prosto One', cursive;
     font-weight: bold;
     float: left;
     height: 80px;
@@ -42,15 +42,15 @@ body {
     border: 2px solid grey;
     width: 48%;
     text-align: center;
-    margin: 5px auto;
-    font-family: 'Merienda', cursive;
+    margin: 15px auto;
+    font-family: 'Prosto One', cursive;
     font-weight: bold;
     float: right;
     height: 80px;
 }
 #wrapper {
     width: 600px;
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
     overflow: hidden;
     background: url("../Images/cloth_alike.png");
@@ -61,14 +61,14 @@ body {
     clear: both;
     text-align: center;
     width: 600px;
-    margin: auto;
+    margin: 0 auto;
     
     background: url("../Images/cloth_alike.png");
     border: 2px solid grey;
 }
 #wrapper3 {
     width: 500px;
-    margin: auto;
+    margin: 30px auto;
     background: url("../Images/cloth_alike.png");
     border: 2px solid grey;
 }
@@ -76,8 +76,12 @@ img {
     width: 20%;
     height: 20%;
     margin: 5px;
-    
-    border: 2px solid grey;
+    border: 2px solid grey;   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+img:hover {
+    height: 30%;
+    width: 30%;
 }
 #score {
     clear: both;
@@ -88,7 +92,7 @@ img {
     text-align: center;
     margin: 5px auto;
     
-    font-family: 'Merienda', cursive;
+    font-family: 'Prosto One', cursive;
     font-weight: bold;
     
     height: 40px;
@@ -100,8 +104,20 @@ img {
     width: 300px;
     text-align: center;
     margin: 5px auto;
-    font-family: 'Merienda', cursive;
+    font-family: 'Prosto One', cursive;
     font-weight: bold;
     font-size: 35px;
     height: 100px;
 }
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    #title {
+        display: flex;
+        justify-content: center; 
+       
+    }
+    #wrapper3 {
+        margin: 0 auto;
+        
+    }
+  }
